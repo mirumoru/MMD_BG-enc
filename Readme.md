@@ -1,6 +1,6 @@
-# MMD_BG-enc
-## 『mp4からMMDの背景で読み込めるaviに変換するバッチ』v1.4.1 
-ダウンロード先：https://bowlroll.net/file/239319  
+## MMD_BG-enc
+### 『mp4からMMDの背景で読み込めるaviに変換するバッチ』v1.4.1 
+[Downloads(ダウンロード)](https://bowlroll.net/file/239319)  
 雑な所がありますが許していただけると幸いです。  
 本ソフトを使用して発生した損害,損失,などはみるもる(うp主)は責任を一切負いません。  
 自己責任でご利用下さい。  
@@ -17,12 +17,11 @@ MMDで読み込めるファイルサイズは2GBなのですが、
   
 もしかしたら「Ut Video」が必要かもしれません。  
 エラーが発生した場合は導入してみてください。《エラー一貫》によくあるエラーを書いています。  
-http://umezawa.dyndns.info/wordpress/?cat=28  
-からダウンロード出来ます。  
+[ここ](http://umezawa.dyndns.info/wordpress/?cat=28)からダウンロード出来ます。  
 
 MikuMikuDanc Ver.9.32 動作確認済み  
 
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー  
+--- 
   
 《使い方》  
 ファイル名にスペースや(特殊)記号を入れるとエラーが発生する可能性があります。  
@@ -56,7 +55,8 @@ CPUデメリット・・・容量の多い動画は途中で読み込みエラ�
 
 GPUメリット・・・・容量の多い動画でも最後まで読み込む事ができる。  
 GPUデメリット・・・MMDでフレーム操作で動画がカクつく。(特に戻る場合)  
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー  
+
+---
 
 《更新内容》  
 
@@ -67,7 +67,7 @@ NVEncを64bit版に変更しました。(exeは64bit版でした)
 バージョン確認バッチを作成し、「NVENCが利用可能か確認」を  
 「NVENC64利用可能確認バッチ」に名前を変更しました。  
 
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー  
+---  
 
 「v1.4」2022/01/14  
 NVEnc版を作成しました。そのため出力ファイル名を変更しました。  
@@ -99,13 +99,13 @@ GPUデコードはMMDがカクつくようになっています。原因不明�
 「v1.0」2020/10/26<br>
 作りました～  
   
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー  
+---
   
 《エラー一貫》  
 No such file or directory ファイルの名前を変更してください。  
 already exists. Overwrite? 動画の上書きをするかです。  
 する場合は「Y」しない場合は「N」を押してください。  
-<br>
+
 《ライセンス》  
 ・ソースコードはご自由にお使いください。  
 ・batファイルの改変、配布も可能です。ただし、このReadmeを同封してください。(連絡の必要はありません)  
@@ -122,22 +122,19 @@ already exists. Overwrite? 動画の上書きをするかです。
   
 作成：みるもるの家  
 
-ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー  
+---  
 
-新紹介動画YouTube：https://youtu.be/C2uDBN-xhe4  
-旧紹介動画YouTube：https://youtu.be/OZD1nLKz6o4  
+[新紹介動画YouTube](https://youtu.be/C2uDBN-xhe4)  
+[旧紹介動画YouTube](https://youtu.be/OZD1nLKz6o4)  
 
-新紹介動画ニコニコ：https://www.nicovideo.jp/watch/sm39898056  
-旧紹介動画ニコニコ：https://www.nicovideo.jp/watch/sm37725706  
+[新紹介動画ニコニコ](https://www.nicovideo.jp/watch/sm39898056)  
+[旧紹介動画ニコニコ](https://www.nicovideo.jp/watch/sm37725706)  
 
-YouTubeチャンネル名:みるもるの家  
-https://www.youtube.com/channel/UCBFX9aizNm2pMHndCvnrjvA  
-<br>
-我的哔哩哔哩地址  
-[みるもるの家]https://space.bilibili.com/1422965680  
-<br>
-ニコニコ動画：https://www.nicovideo.jp/user/50718637  
-<br>
-Twitter:@mirumoruHouse  
-https://twitter.com/mirumoruHouse  
+[YouTubeチャンネル](https://www.youtube.com/channel/UCBFX9aizNm2pMHndCvnrjvA)  
+
+[bilibili](https://space.bilibili.com/1422965680)  
+
+[ニコニコ](https://www.nicovideo.jp/user/50718637)  
+
+[Twitter](https://twitter.com/mirumoruHouse)  
 
