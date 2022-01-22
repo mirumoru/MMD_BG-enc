@@ -108,11 +108,11 @@ MMD_BG-encを使用して発生した損害,損失,などはみるもる(うp主
 
 
 ## 《ライセンス》  
-・ソースコードはご自由にお使いください。  
+・MITライセンスです。  
 ・batファイルの改変、配布も可能です。ただし、このReadmeを同封してください。(連絡の必要はありません)  
 ・toolの中のexeや.dllは別のライセンスです。  
-・このソフトウェアは[ffmpeg](https://ffmpeg.org/)と[NVEnc](https://github.com/rigaya/NVEnc)を使用しています。
-ライセンスにつきましては、
+・このソフトウェアは[ffmpeg](https://ffmpeg.org/)と[NVEnc](https://github.com/rigaya/NVEnc)を使用しています。  
+ライセンスにつきましては、license.txtをご覧ください。  
 
 ## 《更新履歴》  
 2022/01/20・公開v1.4.1  
@@ -123,9 +123,9 @@ MMD_BG-encを使用して発生した損害,損失,などはみるもる(うp主
 2021/07/27・公開v1.1  
 2020/10/26・公開v1.0  
   
-作成：みるもるの家  
+作成：mirumoru / みるもるの家  
 
----  
+## 《その他》
 
 [新紹介動画YouTube](https://youtu.be/C2uDBN-xhe4)  
 [旧紹介動画YouTube](https://youtu.be/OZD1nLKz6o4)  
