@@ -1,6 +1,6 @@
 @echo off
 rem ==========================================================================================
-rem 作成：みるもるの家 更新:2022年1月19日 『mp4からMMDの背景で読み込めるaviに変換するバッチ』v1.4.1
+rem 作成：みるもるの家 更新:2022年1月22日 『mp4からMMDの背景で読み込めるaviに変換するバッチ』v1.4.2
 rem mp4からaviとwavに変換(MMD用)ffmpeg_nvenc版
 rem ==========================================================================================
 
@@ -49,7 +49,7 @@ rem 動画変更処理を実行
 cd /d %~dp0tool
 echo 映像をデコードしています。
 rem outの後の拡張子を変更する事が出来ます。(例:mp4からmp3)
-ffmpeg -i %INPUT_FOLDER%\%%i -r 30 -b:v 1500K -vcodec h264_nvenc -an %OUTPUT_FOLDER%%%x_MMD用NV版.avi
+ffmpeg -i %INPUT_FOLDER%\%%i -r 30 -b:v 1500K -vcodec h264_nvenc -an %OUTPUT_FOLDER%%%x_MMD用FFNV版.avi
 echo %%iの動画処理が完了しました。
 echo ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 
@@ -57,7 +57,7 @@ call :setting2
 
 rem 音声変更処理を実行
 echo 音声をデコードしています。
-ffmpeg -i %INPUT_FOLDER%\%%i -sample_fmt s16 -ar 48000 %OUTPUT_FOLDER%%%x_MMD用NV版.wav
+ffmpeg -i %INPUT_FOLDER%\%%i -sample_fmt s16 -ar 48000 %OUTPUT_FOLDER%%%x_MMD用FFNV版.wav
 echo %%iの音声処理が完了しました。
 echo ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 rem --------------------------------------------------------------------------------
