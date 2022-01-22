@@ -110,8 +110,7 @@ MMD_BG-encを使用して発生した損害,損失,などはみるもる(うp主
 ## 《ライセンス》  
 ・MITライセンスです。  
 ・batファイルの改変、配布も可能です。ただし、このReadmeを同封してください。(連絡の必要はありません)  
-・toolの中のexeや.dllは別のライセンスです。  
-・このソフトウェアは[ffmpeg](https://ffmpeg.org/)と[NVEnc](https://github.com/rigaya/NVEnc)を使用しています。  
+・このソフトウェアは[ffmpeg](https://ffmpeg.org/)と[NVEnc](https://github.com/rigaya/NVEnc)を使用しています。
 ライセンスにつきましては、license.txtをご覧ください。  
 
 ## 《更新履歴》  
