@@ -1,5 +1,5 @@
 @echo off
-cd /d %~dp0../tool
+cd /d %~dp0../tool/NVEncC
 NVEncC64 --check-hw
 
 if errorlevel 0 (

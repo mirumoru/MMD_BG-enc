@@ -48,16 +48,17 @@ for /f "usebackq tokens=1 delims=." %%x in (`echo %%i`) do (
 
 
 rem 動画変更処理を実行
-cd /d %~dp0tool
+cd /d %~dp0tool\NVEncC
 echo 映像をデコードしています。
 rem outの後の拡張子を変更する事が出来ます。(例:mp4からmp3)
-NVEncC64 --fps 30 --cbr 1500 --avsync vfr -i %INPUT_FOLDER%\%%i -o %OUTPUT_FOLDER%%%x_MMD用NVEnc版.avi
+NVEncC64 -c h264 --cbr 7500 --fps 30 -i %INPUT_FOLDER%\%%i -o %OUTPUT_FOLDER%%%x_MMD用NVEnc版.avi
 echo %%iの動画処理が完了しました。
 echo ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
 
 call :setting2
 
 rem 音声変更処理を実行
+cd /d %~dp0tool
 echo 音声をデコードしています。
 ffmpeg -i %INPUT_FOLDER%\%%i -sample_fmt s16 -ar 48000 %OUTPUT_FOLDER%%%x_MMD用NVEnc版.wav
 echo %%iの音声処理が完了しました。
